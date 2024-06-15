@@ -22,6 +22,15 @@
 		<ul>
 			<li>
 				<NavItem path="/force-simulation/" text="ForceSimulation" currentUrl={$page.url} />
+				<ul>
+					<li>
+						<NavItem
+							path="/force-simulation/clone-data"
+							text="cloneData (bug)"
+							currentUrl={$page.url}
+						/>
+					</li>
+				</ul>
 			</li>
 		</ul>
 	</svelte:fragment>
