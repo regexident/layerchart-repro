@@ -30,6 +30,9 @@
 							currentUrl={$page.url}
 						/>
 					</li>
+					<li>
+						<NavItem path="/force-simulation/forces" text="forces (bug)" currentUrl={$page.url} />
+					</li>
 				</ul>
 			</li>
 		</ul>
